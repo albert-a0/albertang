@@ -1,7 +1,7 @@
-body {
+/* body {
     background-image: url("liquidss.svg");
     background-repeat: no-repeat;
-}
+} */
 
 #welcome {
     background-image: linear-gradient(to right, #34495E  , #EBEDEF );
@@ -25,8 +25,27 @@ body {
     border: 1px solid black;
     color: white;
     font-weight: 800;
+
 }
 
 .panel {
     box-shadow: 10px 10px #F5F5F5; 
+    padding: 10px 10px 10px 10px;
+}
+
+.navbar {
+    background-color: transparent;
+    border-radius: 0px;
+    border: none;
+}
+
+.navbar-brand {
+    color: White;
+    font-weight: bolder;
+}
+
+h3 {
+    color: #F86A4B;
+    font-family: Audiowide;
+    text-align: center;
 }
